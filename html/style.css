@@ -23,9 +23,9 @@
     height: 80%;
     bottom: 14px;
     left: 18px;
-    background-color: rgb(255, 198, 13);
+    background-color: rgb(119, 0, 255);
     border-radius: 12px;
-    border: 2px solid black;
+    border: 2px solid rgb(94, 94, 94);
 }
 
 .contract-header {
@@ -41,8 +41,8 @@
     margin-left: auto; 
     margin-right: auto; 
     top: 10%;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid green;
+    background-color: rgb(183, 0, 255);
+    border: 3px solid rgb(49, 49, 49);
 }
 
 .contract-information-header {
@@ -51,7 +51,7 @@
 
 .property-info {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(183, 0, 255);
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
     width: 90%;
     height: 60px;
@@ -65,7 +65,7 @@
 
 .property-cancel {
     position: absolute;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(44, 44, 44);
     border-radius: 5px 0px 0px 5px;
     width: 40%;
     height: 35px;
@@ -77,7 +77,7 @@
 
 .property-accept {
     position: absolute;
-    background-color: rgb(3, 105, 3);
+    background-color: rgb(191, 0, 255);
     border-radius: 0px 5px 5px 0px;
     width: 55%;
     height: 35px;
@@ -88,7 +88,7 @@
 }
 
 .property-accept:hover {
-    background-color: rgb(1, 122, 1);
+    background-color: rgb(255, 0, 255);
     transition: 0.3s;
 }
 
@@ -112,8 +112,8 @@
     right: 170px;
     top: 25px;
     border-radius: 8px;
-    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 2px 0px rgb(255, 0, 234);
+    border: 1px solid rgba(70, 70, 70, 0.5);
 }
 
 #property-cancel-text {
@@ -121,7 +121,7 @@
     top: 9px;
     left: 35px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(212, 0, 255);
     font-size: 13px;   
 }
 
@@ -130,7 +130,7 @@
     top: 9px;
     left: 70px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(212, 0, 255);
     font-size: 13px;   
 }
 
@@ -142,14 +142,14 @@
 }
 
 #welcome-name {
-    color: rgb(2, 88, 2);
+    color: rgb(204, 0, 255);
 }
 
 #contract-header-text {
     position: relative;
     top: 13px;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgb(162, 0, 255);
     font-size: 24px;
 }
 
@@ -157,7 +157,7 @@
     position: relative;
     top: 20px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(140, 0, 255);
     font-size: 24px;
 }
 
@@ -172,7 +172,7 @@
 #propert-info-hr {
     position: relative;
     width: 30%;
-    background-color: green;
+    background-color: rgb(99, 99, 99);
     height: 4px;
     top: 9px;
     border-radius: 0px 5px 5px 0px;
@@ -187,7 +187,7 @@
 }
 
 #property-totalprice {
-    color: green;
+    color: rgb(191, 0, 255);
     font-weight: bold;
 }
 /*Decorations*/
@@ -202,14 +202,14 @@
     position: absolute;
     width: 100%;
     height: 5vh;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(79, 79, 79, 0.75);
 }
 
 .decorate-footer {
     position: absolute;
     width: 100%;
     height: 5vh;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(99, 99, 99, 0.75);
     bottom: 0;
 }
 
@@ -236,16 +236,16 @@
     max-width: 20vh;
     margin-left: 5px;
     text-align: center;
-    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(151, 151, 151, 0);
     transition: all 0.2s ease-in-out;
 }
 
 .header-btn:hover {
-    background-color: #d83737ea;
+    background-color: #ff00f7ea;
 }
 
 .header-btn > p {
-    color: white;
+    color: rgb(234, 0, 255);
     line-height: 4.5vh;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -254,8 +254,8 @@
 }
 
 .header-btn-selected {
-    background-color: #d83737ea;
-    border-bottom: 2px solid #fff;
+    background-color: #c300ffea;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .footer-btn {
@@ -272,11 +272,11 @@
 }
 
 .footer-btn:hover {
-    background-color: #d83737ea;
+    background-color: #e100ffea;
 }
 
 .footer-btn > p {
-    color: white;
+    color: rgb(191, 0, 255);
     line-height: 4.5vh;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -285,15 +285,15 @@
 }
 
 .footer-btn-selected {
-    background-color: #d83737ea;
-    border-bottom: 2px solid #fff;
+    background-color: #353535ea;
+    border-bottom: 2px solid rgb(183, 0, 255);
 }
 
 .decorate-keys {
     position: absolute;
     width: auto;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(79, 79, 79, 0.75);
     right: 0;
     bottom: 5%;
     border-radius: 10px 0px 0px 0px;
@@ -306,7 +306,7 @@
 }
 
 #decorate-keys > li {
-    color: white;
+    color: rgb(242, 0, 255);
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     margin-top: 18px;
@@ -333,24 +333,24 @@
     position: relative;
     width: 100%;
     height: 20%;
-    background-color: rgba(22, 22, 22, 0.705);
-    box-shadow: inset 0px 0px 30px 0px rgba(27, 27, 27, 0.054);
+    background-color: rgba(80, 80, 80, 0.705);
+    box-shadow: inset 0px 0px 30px 0px rgb(255, 0, 247);
     margin-top: 1vh;
     transition: all 0.2s ease-in-out;
-    border-bottom: 4px solid #9e181800;
+    border-bottom: 4px solid #30303000;
 }
 
 .selected-object {
-    border-bottom: 4px solid #b12424;
+    border-bottom: 4px solid #cc00ff;
 }
 
 .decorate-item:hover {
-    background-color: rgba(231, 231, 231, 0.465);
+    background-color: rgba(33, 33, 33, 0.465);
 }
 
 #decorate-item-name {
     position: absolute;
-    color: rgb(243, 243, 243);
+    color: rgb(212, 0, 255);
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     padding-left: 10px;
@@ -360,7 +360,7 @@
 
 #decorate-item-category {
     position: absolute;
-    color: rgb(251, 251, 251);
+    color: rgb(212, 0, 255);
     font-family: 'Poppins', sans-serif;
     padding-top: 35px;
     padding-left: 10px;
@@ -383,14 +383,14 @@
     margin-left: 2px;
     margin-top: 2px;
     background-color: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(212, 0, 255, 0.1);
     transition: background-color 0.3s;
 }
 
 .object-select-label {
     font-family: 'Poppins', sans-serif;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #7700ff;
 }
 
 .select-object {
@@ -406,12 +406,12 @@
 .btn-spawnobj {
     font-family: 'Poppins', sans-serif;
 	border-radius: 0px!important;
-	color: #FFFFFF;
+	color: #ff00cc;
 	background: #9e1818;
 }
 
 .btn-spawnobj:hover {
-	background: #d93636;
+	background: #303030;
 }
 
 .decorate-confirm {
@@ -456,10 +456,10 @@
     width: 6.4vh;
     height: 6.4vh;
     margin: 0.8vh;
-    border: 0.8vh solid #d83737ea;
+    border: 0.8vh solid #3f3f3fea;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: #d83737ea transparent transparent transparent;
+    border-color: #373737ea transparent transparent transparent;
   }
   .lds-ring div:nth-child(1) {
     animation-delay: -0.45s;
@@ -491,7 +491,7 @@
     font-size: 2.5vh;
     padding: 8vh;
     text-transform: uppercase;
-    color: white;
+    color: rgb(149, 0, 255);
     font-weight: bold;
 }
 
@@ -502,7 +502,7 @@
     padding: 8vh;
     top: 4vh;
     text-transform: uppercase;
-    color: white;
+    color: rgb(170, 0, 255);
     font-weight: bold;
 }
 
@@ -514,6 +514,6 @@
     font-size: 2vh;
     padding: 8vh;
     text-transform: uppercase;
-    color: rgb(37, 146, 23);
+    color: rgb(183, 0, 255);
     font-weight: bold;
 }
